@@ -1,0 +1,36 @@
+/* body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+} */
+/* Header styles */
+.pe-company-title-ctn{
+  color: #f7914a;
+  font-family: fantasy;
+  font-weight: 800;
+  font-size: xx-large;
+}
+.bg-primary {
+  background-color: #f7914a !important;
+}
+
+/*  Mail to */
+.mailto-ctn, .phone-ctn{
+  color: #788294;
+  margin-right: 5px;
+  border-right: 1px solid #6d6e70;
+  padding: 0 10px;
+}
+/* Light theme color changes */
+/* .light{
+  .mailto-ctn, .phone-ctn{
+    color: #1d2430;
+    border-right: 1px solid #788294;
+  }
+} */
+
+.social-icons-ctn {
+  margin-left: 5px;
+}
+
+.dark\:text-white {
+  color: #f2a56ee8 !important
+}
