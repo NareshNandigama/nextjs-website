@@ -17,7 +17,10 @@ const Footer = () => {
                     true ? "py-5 lg:py-2" : "py-8"
                   } `}
                 >
-                  <div className="pe-company-title-ctn">PrayanEnricher</div>
+                  <div className="pe-company-title-ctn">
+                    <span></span>
+                    <label>PrayanEnricher</label>
+                  </div>
                 </Link>
               </div>
                 {/* <Link href="/" className="mb-8 inline-block">

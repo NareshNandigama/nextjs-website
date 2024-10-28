@@ -49,14 +49,17 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            <div className="xl:mr-12">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                <div className="pe-company-title-ctn">PrayanEnricher</div>
+                <div className="pe-company-title-ctn">
+                <span></span>
+                <label>PrayanEnricher</label>
+                </div>
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
@@ -91,7 +94,7 @@ const Header = () => {
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
-                  <ul className="block lg:flex lg:space-x-12">
+                  <ul className="block lg:flex lg:space-x-4">
                     {menuData.map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (

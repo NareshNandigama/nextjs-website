@@ -2,14 +2,52 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 } */
 /* Header styles */
-.pe-company-title-ctn{
-  color: #f7914a;
-  font-family: fantasy;
-  font-weight: 800;
-  font-size: xx-large;
+/* .pe-company-title-ctn{
+  label{
+    color: #1265ad;
+    font-weight: 800;
+    font-size: xx-large;
+  }
+  span{
+    background-image: url('../resources/pe_alpha.png');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    background-size: contain;
+    height: 50px;
+    width: 70px;
+    display: inline-block;
+  }
+} */
+.pe-company-title-ctn {
+  display: inline-flex; /* Aligns logo and title side-by-side */
+  align-items: center; /* Centers items vertically */
+  
+  span {
+    background-image: url('../resources/pe_alpha.png');
+    background-repeat: no-repeat;
+    background-size: contain; /* Ensures the image fits within dimensions */
+    background-position: center;
+    height: 50px;
+    width: 70px;
+    display: inline-block;
+   
+    overflow: hidden; /* Ensures no overflow issues */
+  }
+
+  label {
+    color: #1265ad;
+    font-weight: 800;
+    font-size: xx-large;
+  }
 }
+
 .bg-primary {
-  background-color: #f7914a !important;
+  background-color: #1265ad !important;
+}
+.asd{
+  margin-top: 2px;
+  margin-right: 33px;
 }
 
 /*  Mail to */
@@ -32,5 +70,5 @@
 }
 
 .dark\:text-white {
-  color: #f2a56ee8 !important
+  color: #1265ad !important
 }
